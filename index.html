@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar sticky-top bg-body-warning">
+      <div class="container">
+        <a class="navbar-brand pic" href="#">
+          <img
+            src="https://images.getbento.com/accounts/22022076ca31682d32e6a3253b8e9e7c/media/images/75474fed-pig-yellow.png"
+            alt="Bootstrap"
+            width="100"
+            height="50"
+          />
+        </a>
+      </div>
+      <div class="m-auto">
+        <span class="m-2 fw-bold btn_1">MENUS</span>
+        <span class="m-2 fw-bold btn_1">CATERING</span>
+        <span class="m-2 fw-bold btn_1">LOCATIONS</span>
+        <span class="m-2 fw-bold btn_1">BBQ BOX</span>
+        <span class="m-2 fw-bold btn_1">SUPER CLUB</span>
+        <span class="m-2 fw-bold btn_1">GIFT CARDS</span>
+        <button class="btn p-1 fw-bold btn_1" style="border: 2px solid black">
+          ORDER ONLINE
+        </button>
+      </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://images.getbento.com/accounts/22022076ca31682d32e6a3253b8e9e7c/media/images/48258IMG_9016.JPG?w=1200&fit=crop&auto=compress,format&crop=focalpoint&fp-x=0.5&fp-y=0.5"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="fs-2 fw-bold">Special Sauce</h5>
+            <p class="lead">
+              New Specials Just Dropped! Try the Larry David Pastramisandwich
+            </p>
+            <button
+              class="btn btn_1"
+              style="color: yellow; border: 1px solid yellow"
+            >
+              See the Specials
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.getbento.com/accounts/22022076ca31682d32e6a3253b8e9e7c/media/images/4440IMG_4865.JPG?w=1200&fit=crop&auto=compress,format&crop=focalpoint&fp-x=0.5&fp-y=0.5"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="fs-2 fw-bold">Fed Pig Super Club</h5>
+            <p class="lead">A Fancy 4-Course Fed Pig dine-in experience</p>
+            <button
+              class="btn btn_1"
+              style="color: yellow; border: 1px solid yellow"
+            >
+              Get Your Ticket
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="
+            https://images.getbento.com/accounts/22022076ca31682d32e6a3253b8e9e7c/media/images/3256IMG_2861.jpg?w=1200&fit=crop&auto=compress,format&crop=focalpoint&fp-x=0.5&fp-y=0.5"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="fs-2 fw-bold">Monthly BBQ Box</h5>
+            <p class="lead">
+              When you become a subscriber of our monthly BBQ Box
+            </p>
+            <button
+              class="btn btn_1"
+              style="color: yellow; border: 1px solid yellow"
+            >
+              Become a Member
+            </button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 my-3 text-center">
+      <div class="col">
+        <div class="card" style="width: 18rem; background-color: yellow; border: none; margin-left: 200px;">
+          <img src="https://images.getbento.com/accounts/22022076ca31682d32e6a3253b8e9e7c/media/images/85291IMG_3966_web.jpg?w=1200&fit=crop&auto=compress,format&crop=focalpoint&fp-x=0.5&fp-y=0.5" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="fw-bold fs-2 card-title">Specials</h5>
+            <p class="card-text">
+                Pitmaster Rob is always up to something! Check out our rotating specialty sandwiches and limited drops.
+            </p>
+            <a href="#" class="btn btn_1" style="background-color: yellow; border: 1px solid black;">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card" style="width: 18rem; background-color: yellow; border: none;">
+          <img src="https://images.getbento.com/accounts/22022076ca31682d32e6a3253b8e9e7c/media/images/98058IMG_1800.JPG?w=1200&fit=crop&auto=compress,format&crop=focalpoint&fp-x=0.5&fp-y=0.5" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="fw-bold fs-2 card-title">Super Club</h5>
+            <p class="card-text">
+                Once a month, Chef & Pitmaster Rob Sonderman presents a new 4-course dine-in experience that goes beyond our regular offerings and puts a smoky spin on gourmet cuisine.
+            </p>
+            <a href="#" class="btn btn_1" style="background-color: yellow; border: 1px solid black;">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+<div class="container row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 row-cols-xl-2 my-3">
+    <div class="col">
+        <div>
+            <h1 style="text-align: center;">MENU</h1>
+            <p class="lead" >We’re craft American BBQ made in-house (always). Get traditions and favorites from all over the world — all on one plate. Federalist Pig is a two-time Michelin Bib Gourmand winner serving up DC’s best blend of the classic BBQ traditions you’d find at the most elite cookout and the elevated flavors you’d find at a true fine dining spot.
+                <br />
+                Everything we serve is house-made and prepared by a staff that cares. You could spend a lifetime sampling every flavor combination at Federalist Pig, and we hope you do.</p>
+                <button class="btn my-3 btn_1 p-1" style="border: 1px solid black; text-align: center; margin-left: 30%;">PEEP THE MENU</button>
+        </div>
+        <div>
+            <img style="width: 100%; height: 500px;" src="https://images.unsplash.com/photo-1508615263227-c5d58c1e5821?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmJxfGVufDB8fDB8fHww" alt="..." />
+        </div>
+    </div>
+    <div class="col">
+        <div>
+            <img style="width: 100%; height: 500px;" src="https://images.unsplash.com/photo-1508615263227-c5d58c1e5821?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmJxfGVufDB8fDB8fHww" alt="..." />
+        </div>
+        <h1 style="text-align: center;">CATERING</h1>
+        <p class="lead" >We'll bring the 'que to you! From backyard BBQs, holiday celebrations or hundred-person events, our Barbecrew and catering truck can do it all. Serving thoughtfully crafted sides, vegan and vegetarian options, to the BBQ classics from all the regions of America, and all the corners of the globe — it’s all here.</p>
+            <button class="btn btn_1 my-3" style="border: 1px solid black; margin-left: 30%;">PEEP THE MENU</button>
+    </div>
+    </div>
+</div>
+
+<marquee behavior="" direction="">
+    <div class="d-flex flex-wrap">
+        <img src="https://images.getbento.com/accounts/22022076ca31682d32e6a3253b8e9e7c/media/images/Catalogue_brand_family_banner-federalist-pig.png?w=1000&fit=max&auto=compress,format&h=1000" alt="..." />
+       </div>
+</marquee>
+
+<nav class="d-flex flex-wrap foote">
+    <div class="fs-2">
+        <i class="fa-brands fa-facebook" style="color: yellow;"></i>
+        <i class="fa-brands fa-instagram" style="color: yellow;"></i>
+    </div>
+    <div class="p-1" style="margin-left: 60%; color: yellow;">
+        <span class="">Awards</span>
+        <span> careers</span>
+        <span>contact</span>
+        <span>about</span>
+        <span>terms</span>
+        <span>privacy</span>
+        <button class="btn p-1 fw-bold btn_1" style="border: 2px solid yellow; color: yellow;">
+            ORDER ONLINE
+          </button>
+    </div>
+</nav>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

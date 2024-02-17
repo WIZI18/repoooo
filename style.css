@@ -1,0 +1,23 @@
+body{
+    background-color: yellow;
+}
+
+nav{
+    background-color: yellow !important;
+}
+.pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60vh;
+}
+.btn_1:hover{
+    color: yellow !important;
+    background-color: black !important;
+    cursor: pointer !important;
+    padding: 3px !important;
+    border-radius: 3px !important;
+}
+.foote{
+    background-color: black !important;
+}
